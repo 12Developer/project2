@@ -1,23 +1,23 @@
-h1  {
+/* h1  {
   text-align: center;
-}
+} */
 
-.container {
+/* .container {
   display: flex;
   width: 95vw;
   justify-content: space-around;
   align-content: space-around;
   flex-wrap: wrap;
-}
+} */
 
-.square {
+/* .square {
   background-color: rgb(255, 251, 218);
   width: 225px;
   height: 225px;
   position: relative;
-}
+} */
 
-textarea {
+/* textarea {
   width: 95%;
   height: 60%;
   font-size: 1rem;
@@ -27,4 +27,19 @@ textarea {
 input {
   width: 95%;
   background: transparent;
+} */
+
+.container {
+  max-width: 37.5em;
+  margin: auto;
+  margin-top: 2em;
+}
+
+#indexcontainer {
+  min-width: 95%;
+}
+
+img {
+  max-width: 90%;
+  max-height: 10vmax;
 }

@@ -9,10 +9,9 @@
     <h1><%=users.item_title%></h1>
     <img src="<%=users.item_image%>" alt="<%=users.title%>">
     <p> Description: <%=users.item_description%></p>
-      <p>Contact: <%=users.first_name%> <%=users.last_name%></p>
 
     <a href="/users/<%=users.id%>/edit">Edit</a>
-    
+
     <form action="/users/<%=users.id%>?_method=DELETE" method="POST">
             <button>DELETE</button>
           </form>
