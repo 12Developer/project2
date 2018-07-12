@@ -4,14 +4,26 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+    <h1 style="text-align:center">Welcome to Idea Board</h1>
+    <h1 style="text-align:center">Create a new account</h1>
   <nav>
     <ul>
-      <li>Home Page</li>
-      <li>Login</li>
-      <li>Idea Page</li>
+      <li><a href="/users">Home Page</a></li>
+      <li><a href="/users/new">New User</a></li>
+      <!-- <li><a href="/sessions/new">Log In</a></li>
+      <li><a href="/users/new">Register</a></li>
+      <li><a href="#">Idea Page</a></li> -->
     </ul>
   </nav>
   <body>
-      <h1>Index Page</h1>
+    <!-- <form action="/" method="POST">
+      <input type="email" name="email" placeholder="email" required>
+      <input type="password" name="password" placeholder="password" required>
+      <input type="submit" value="Create User">
+    </form> -->
+    <% for(let i = 0; i < users.length; i++) { %>
+      <a href="/users/<%=users[i].id%>">
+        <img src="<%=users[i].item_image%>"></a>
+    <% } %>
   </body>
 </html>

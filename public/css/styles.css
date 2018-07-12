@@ -1,0 +1,30 @@
+h1  {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 95vw;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: rgb(255, 251, 218);
+  width: 225px;
+  height: 225px;
+  position: relative;
+}
+
+textarea {
+  width: 95%;
+  height: 60%;
+  font-size: 1rem;
+  background: transparent;
+}
+
+input {
+  width: 95%;
+  background: transparent;
+}

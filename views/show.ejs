@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <li><a href="/users">Home Page</a></li>
+  </head>
+  <body>
+    <h1><%=users.item_title%></h1>
+    <img src="<%=users.item_image%>" alt="<%=users.title%>">
+    <p> Description: <%=users.item_description%></p>
+      <p>Contact: <%=users.first_name%> <%=users.last_name%></p>
+
+    <a href="/users/<%=users.id%>/edit">Edit</a>
+    
+    <form action="/users/<%=users.id%>?_method=DELETE" method="POST">
+            <button>DELETE</button>
+          </form>
+  </body>
+</html>

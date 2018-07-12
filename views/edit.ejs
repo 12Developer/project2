@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <h1>Edit</h1>
+      <form action="/users/<%=user.id%>?_method=PUT" method="POST">
+        First Name: <input type="text" name="first_name" value="<%=user.first_name%>"><br/>
+        Last Name:  <input type="text" name="last_name" value="<%=user.last_name%>"><br/>
+        Username:   <input type="text" name="username" value="<%=user.username%>"><br/>
+        Password:   <input type="password" name="password" value="<%=user.password%>"><br/>
+        Description: <input type="text" name="item_description" value="<%=user.item_description%>"><br/>
+        Title: <input type="text" name="item_title" value="<%=user.item_title%>"><br/>
+        Image Url: <input type="text" name="item_image" value="<%=user.item_image%>"> <br/>
+        <input type="submit" value="Update Changes">
+      </form>
+  </body>
+</html>
