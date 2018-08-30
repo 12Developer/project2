@@ -33,6 +33,7 @@ input {
   max-width: 37.5em;
   margin: auto;
   margin-top: 2em;
+  border: 1px solid black;
 }
 
 #indexcontainer {
@@ -40,6 +41,25 @@ input {
 }
 
 img {
-  max-width: 90%;
-  max-height: 10vmax;
+  height: 200px;
+  width: 50;
+  border-radius: 50%
+}
+
+body{
+ background-color: #000000;
+padding: 0px;
+margin: 0px;
+}
+
+#gradient
+{
+width: 100%;
+height: 800px;
+padding: 0px;
+margin: 0px;
+}
+
+h1 {
+  color: white;
 }

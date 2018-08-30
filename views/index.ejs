@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <link rel="stylesheet" href="/css/styles.css">
-    <h1 style="text-align:center">Welcome to Idea Board</h1>
+    <h1 style="text-align:center">Welcome to Snapshot</h1>
     <h1 style="text-align:center">Create a new account</h1>
   <nav>
     <ul>
@@ -13,7 +13,7 @@
       <li><a href="/users/new">New User</a></li>
     </ul>
   </nav>
-  <body>
+  <body id="gradient">
     <div class="container" id="indexcontainer">
         <% for(let i = 0; i < users.length; i++) { %>
         <a href="/users/<%=users[i].id%>">
